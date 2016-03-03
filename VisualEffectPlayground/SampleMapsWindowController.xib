@@ -38,7 +38,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="BTB-i8-S8d">
-                            <rect key="frame" x="892" y="1" width="16" height="551"/>
+                            <rect key="frame" x="893" y="1" width="15" height="551"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>

@@ -7,8 +7,8 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="BasicSidebarViewController">
             <connections>
-                <outlet property="TopImageView" destination="tT2-Nm-AZK" id="9rE-dP-yud"/>
                 <outlet property="sideVisualEffectView" destination="jSy-hy-Xt2" id="WDg-3L-vkz"/>
+                <outlet property="topImageView" destination="tT2-Nm-AZK" id="t03-86-UQ5"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>

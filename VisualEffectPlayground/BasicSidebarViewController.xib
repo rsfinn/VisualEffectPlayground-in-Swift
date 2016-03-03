@@ -7,11 +7,10 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="BasicSidebarViewController">
             <connections>
-                <outlet property="CustomView" destination="Hz6-mo-xeY" id="urj-c9-mj8"/>
                 <outlet property="SideImageView" destination="wWB-Ls-KgS" id="tmZ-dE-oBB"/>
                 <outlet property="SideVisualEffectView" destination="jSy-hy-Xt2" id="Dac-yo-dHk"/>
                 <outlet property="sideImageView" destination="wWB-Ls-KgS" id="mzw-fm-e4P"/>
-                <outlet property="view" destination="Hz6-mo-xeY" id="GdY-ru-tA2"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="Bq0-hs-Uhs"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>

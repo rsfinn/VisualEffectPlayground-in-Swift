@@ -12,6 +12,9 @@ class BasicSidebarViewController: NSViewController {
     @IBOutlet weak var topImageView: NSImageView?
     @IBOutlet weak var sideImageView: NSImageView?
     
+    // not used in code, but present in some or all nib files:
+    @IBOutlet weak var sideVisualEffectView: NSVisualEffectView?
+    
     convenience init() {
         self.init(nibName: nil, bundle: nil)!
     }
