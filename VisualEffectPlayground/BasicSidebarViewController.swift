@@ -12,16 +12,12 @@ class BasicSidebarViewController: NSViewController {
     @IBOutlet weak var topImageView: NSImageView?
     @IBOutlet weak var sideImageView: NSImageView?
     
-    init() {
-        super.init(nibName: nil, bundle: nil)!
+    convenience init() {
+        self.init(nibName: nil, bundle: nil)!
     }
     
-    init(nibName: String) {
-        super.init(nibName: nibName, bundle: nil)!
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    convenience init(nibName: String) {
+        self.init(nibName: nibName, bundle: nil)!
     }
     
     override func awakeFromNib() {

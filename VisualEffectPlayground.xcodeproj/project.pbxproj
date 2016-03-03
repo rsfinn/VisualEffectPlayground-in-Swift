@@ -27,6 +27,10 @@
 		4756B65A1C88D43C006F9C86 /* VibrantControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6591C88D43C006F9C86 /* VibrantControlsViewController.xib */; };
 		4756B65D1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */; };
 		4756B65F1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */; };
+		4756B6651C88D62A006F9C86 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6641C88D62A006F9C86 /* map.png */; };
+		4756B6671C88D670006F9C86 /* SampleMapsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6661C88D670006F9C86 /* SampleMapsWindowController.swift */; };
+		4756B6691C88D701006F9C86 /* SampleMapsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6681C88D701006F9C86 /* SampleMapsWindowController.xib */; };
+		4756B66B1C88D996006F9C86 /* MaskExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		4756B6591C88D43C006F9C86 /* VibrantControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsViewController.xib; sourceTree = "<group>"; };
 		4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsCaveatsInWindow.xib; sourceTree = "<group>"; };
 		4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsCaveatsBehindWindow.xib; sourceTree = "<group>"; };
+		4756B6641C88D62A006F9C86 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		4756B6661C88D670006F9C86 /* SampleMapsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleMapsWindowController.swift; path = VisualEffectPlayground/SampleMapsWindowController.swift; sourceTree = "<group>"; };
+		4756B6681C88D701006F9C86 /* SampleMapsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SampleMapsWindowController.xib; path = VisualEffectPlayground/SampleMapsWindowController.xib; sourceTree = "<group>"; };
+		4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +93,13 @@
 			isa = PBXGroup;
 			children = (
 				4756B62C1C88BE6E006F9C86 /* AppDelegate.swift */,
-				4756B6501C88CE90006F9C86 /* CustomViews */,
 				4756B6391C88BEA9006F9C86 /* MyKeyWindow.swift */,
+				4756B6601C88D559006F9C86 /* TestLauncherViewController */,
 				4756B64B1C88C976006F9C86 /* BasicSideViewController */,
-				4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */,
-				4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */,
+				4756B6501C88CE90006F9C86 /* CustomViews */,
 				4756B65B1C88D445006F9C86 /* VibrantControlsViewController */,
+				4756B66C1C88DADF006F9C86 /* SampleMapsWindowController */,
+				4756B6631C88D62A006F9C86 /* Resources */,
 				4756B62E1C88BE6E006F9C86 /* Assets.xcassets */,
 				4756B63F1C88C344006F9C86 /* MainMenu.xib */,
 				4756B6331C88BE6E006F9C86 /* Info.plist */,
@@ -103,9 +112,9 @@
 			children = (
 				4756B6411C88C379006F9C86 /* BasicSidebarViewController.swift */,
 				4756B6431C88C3D1006F9C86 /* BasicSidebarViewController.xib */,
+				4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */,
 				4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */,
 				4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */,
-				4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */,
 			);
 			name = BasicSideViewController;
 			sourceTree = "<group>";
@@ -113,9 +122,9 @@
 		4756B6501C88CE90006F9C86 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				4756B64C1C88CC2D006F9C86 /* BasicVibrantView.swift */,
 				4756B64E1C88CCBF006F9C86 /* CustomView.swift */,
 				4756B6511C88CEC5006F9C86 /* SystemColorView.swift */,
+				4756B64C1C88CC2D006F9C86 /* BasicVibrantView.swift */,
 				4756B6531C88D1F7006F9C86 /* WindowMovableImageView.swift */,
 			);
 			name = CustomViews;
@@ -129,8 +138,36 @@
 				4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */,
 				4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */,
 				4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */,
+				4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */,
 			);
 			name = VibrantControlsViewController;
+			sourceTree = "<group>";
+		};
+		4756B6601C88D559006F9C86 /* TestLauncherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */,
+				4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */,
+			);
+			name = TestLauncherViewController;
+			sourceTree = "<group>";
+		};
+		4756B6631C88D62A006F9C86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4756B6641C88D62A006F9C86 /* map.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4756B66C1C88DADF006F9C86 /* SampleMapsWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				4756B6661C88D670006F9C86 /* SampleMapsWindowController.swift */,
+				4756B6681C88D701006F9C86 /* SampleMapsWindowController.xib */,
+			);
+			name = SampleMapsWindowController;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4756B6691C88D701006F9C86 /* SampleMapsWindowController.xib in Resources */,
+				4756B66B1C88D996006F9C86 /* MaskExampleViewController.xib in Resources */,
+				4756B6651C88D62A006F9C86 /* map.png in Resources */,
 				4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */,
 				4756B62F1C88BE6E006F9C86 /* Assets.xcassets in Resources */,
 				4756B65F1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib in Resources */,
@@ -212,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4756B6671C88D670006F9C86 /* SampleMapsWindowController.swift in Sources */,
 				4756B64D1C88CC2D006F9C86 /* BasicVibrantView.swift in Sources */,
 				4756B6561C88D2A5006F9C86 /* VibrantControlsViewController.swift in Sources */,
 				4756B6421C88C379006F9C86 /* BasicSidebarViewController.swift in Sources */,

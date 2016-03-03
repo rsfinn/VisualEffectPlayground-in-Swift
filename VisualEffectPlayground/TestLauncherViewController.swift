@@ -10,12 +10,8 @@ import Cocoa
 
 class TestLauncherViewController: NSViewController {
 
-    init() {
-        super.init(nibName: nil, bundle: nil)!
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    convenience init() {
+        self.init(nibName: nil, bundle: nil)!
     }
     
     
@@ -70,4 +66,17 @@ class TestLauncherViewController: NSViewController {
         presentViewControllerAsModalWindow(viewController)
     }
     
+    @IBAction
+    func btnMaskImageWindowClicked (sender: NSButton) {
+        let viewController = VibrantControlsViewController(nibName: "MaskExampleViewController")
+        viewController.title = "Masks"
+        presentViewControllerAsModalWindow(viewController)
+    }
+    
+    
+    @IBAction
+    func btnSampleMapsClicked (sender: NSButton) {
+        let wc = SampleMapsWindowController()
+        wc.showWindow(nil)
+    }
 }

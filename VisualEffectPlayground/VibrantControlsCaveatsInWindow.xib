@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6246"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VibrantControlsViewController">
@@ -21,7 +23,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="372" height="379"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="NSStatusAvailable" id="Hqd-SS-xmu"/>
                 </imageView>
-                <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="withinWindow" material="appearanceBased" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="uv5-wV-QRK">
+                <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="uv5-wV-QRK">
                     <rect key="frame" x="0.0" y="-112" width="372" height="491"/>
                     <subviews>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSN-PI-Tbx">
@@ -51,7 +53,7 @@
                         </customView>
                         <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" boxType="custom" borderType="none" translatesAutoresizingMaskIntoConstraints="NO" id="Q83-t5-ehq">
                             <rect key="frame" x="20" y="132" width="332" height="128"/>
-                            <view key="contentView">
+                            <view key="contentView" id="DMu-Xc-dUz">
                                 <rect key="frame" x="0.0" y="0.0" width="332" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
