@@ -67,6 +67,13 @@ class TestLauncherViewController: NSViewController {
     }
     
     @IBAction
+    func btnPerformanceExampleClicked (sender: NSButton) {
+        let viewController = VibrantControlsViewController(nibName: "PerformanceExampleViewController")
+        viewController.title = "Performance Example"
+        presentViewControllerAsModalWindow(viewController)
+    }
+    
+    @IBAction
     func btnMaskImageWindowClicked (sender: NSButton) {
         let viewController = VibrantControlsViewController(nibName: "MaskExampleViewController")
         viewController.title = "Masks"
@@ -77,6 +84,12 @@ class TestLauncherViewController: NSViewController {
     @IBAction
     func btnSampleMapsClicked (sender: NSButton) {
         let wc = SampleMapsWindowController()
+        wc.showWindow(nil)
+    }
+    
+    @IBAction
+    func btnDemoFacetimeClicked (sender: NSButton) {
+        let wc = DemoFaceTimeWindowController()
         wc.showWindow(nil)
     }
 }

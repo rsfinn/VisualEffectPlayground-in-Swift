@@ -31,6 +31,9 @@
 		4756B6671C88D670006F9C86 /* SampleMapsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6661C88D670006F9C86 /* SampleMapsWindowController.swift */; };
 		4756B6691C88D701006F9C86 /* SampleMapsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6681C88D701006F9C86 /* SampleMapsWindowController.xib */; };
 		4756B66B1C88D996006F9C86 /* MaskExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */; };
+		4756B6701C88DC17006F9C86 /* DemoFaceTimeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B66F1C88DC17006F9C86 /* DemoFaceTimeWindowController.swift */; };
+		4756B6721C88DE1A006F9C86 /* DemoFaceTimeWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6711C88DE1A006F9C86 /* DemoFaceTimeWindowController.xib */; };
+		4756B6741C88DF82006F9C86 /* PerformanceExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6731C88DF82006F9C86 /* PerformanceExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		4756B6661C88D670006F9C86 /* SampleMapsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleMapsWindowController.swift; path = VisualEffectPlayground/SampleMapsWindowController.swift; sourceTree = "<group>"; };
 		4756B6681C88D701006F9C86 /* SampleMapsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SampleMapsWindowController.xib; path = VisualEffectPlayground/SampleMapsWindowController.xib; sourceTree = "<group>"; };
 		4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskExampleViewController.xib; sourceTree = "<group>"; };
+		4756B66F1C88DC17006F9C86 /* DemoFaceTimeWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoFaceTimeWindowController.swift; sourceTree = "<group>"; };
+		4756B6711C88DE1A006F9C86 /* DemoFaceTimeWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoFaceTimeWindowController.xib; sourceTree = "<group>"; };
+		4756B6731C88DF82006F9C86 /* PerformanceExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformanceExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 				4756B64B1C88C976006F9C86 /* BasicSideViewController */,
 				4756B6501C88CE90006F9C86 /* CustomViews */,
 				4756B65B1C88D445006F9C86 /* VibrantControlsViewController */,
+				4756B6751C88E157006F9C86 /* DemoFaceTimeWindowController */,
 				4756B66C1C88DADF006F9C86 /* SampleMapsWindowController */,
 				4756B6631C88D62A006F9C86 /* Resources */,
 				4756B62E1C88BE6E006F9C86 /* Assets.xcassets */,
@@ -138,6 +145,7 @@
 				4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */,
 				4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */,
 				4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */,
+				4756B6731C88DF82006F9C86 /* PerformanceExampleViewController.xib */,
 				4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */,
 			);
 			name = VibrantControlsViewController;
@@ -168,6 +176,15 @@
 			);
 			name = SampleMapsWindowController;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		4756B6751C88E157006F9C86 /* DemoFaceTimeWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				4756B66F1C88DC17006F9C86 /* DemoFaceTimeWindowController.swift */,
+				4756B6711C88DE1A006F9C86 /* DemoFaceTimeWindowController.xib */,
+			);
+			name = DemoFaceTimeWindowController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4756B6721C88DE1A006F9C86 /* DemoFaceTimeWindowController.xib in Resources */,
 				4756B6691C88D701006F9C86 /* SampleMapsWindowController.xib in Resources */,
+				4756B6741C88DF82006F9C86 /* PerformanceExampleViewController.xib in Resources */,
 				4756B66B1C88D996006F9C86 /* MaskExampleViewController.xib in Resources */,
 				4756B6651C88D62A006F9C86 /* map.png in Resources */,
 				4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */,
@@ -262,6 +281,7 @@
 				4756B63C1C88C181006F9C86 /* TestLauncherViewController.swift in Sources */,
 				4756B6521C88CEC5006F9C86 /* SystemColorView.swift in Sources */,
 				4756B63A1C88BEA9006F9C86 /* MyKeyWindow.swift in Sources */,
+				4756B6701C88DC17006F9C86 /* DemoFaceTimeWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +411,7 @@
 				4756B6381C88BE6E006F9C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
