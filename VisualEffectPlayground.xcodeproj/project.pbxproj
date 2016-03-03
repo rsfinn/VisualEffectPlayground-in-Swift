@@ -18,6 +18,15 @@
 		4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */; };
 		4756B6481C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */; };
 		4756B64A1C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */; };
+		4756B64D1C88CC2D006F9C86 /* BasicVibrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B64C1C88CC2D006F9C86 /* BasicVibrantView.swift */; };
+		4756B64F1C88CCBF006F9C86 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B64E1C88CCBF006F9C86 /* CustomView.swift */; };
+		4756B6521C88CEC5006F9C86 /* SystemColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6511C88CEC5006F9C86 /* SystemColorView.swift */; };
+		4756B6541C88D1F7006F9C86 /* WindowMovableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6531C88D1F7006F9C86 /* WindowMovableImageView.swift */; };
+		4756B6561C88D2A5006F9C86 /* VibrantControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6551C88D2A5006F9C86 /* VibrantControlsViewController.swift */; };
+		4756B6581C88D2AE006F9C86 /* VibrantColorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */; };
+		4756B65A1C88D43C006F9C86 /* VibrantControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6591C88D43C006F9C86 /* VibrantControlsViewController.xib */; };
+		4756B65D1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */; };
+		4756B65F1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,15 @@
 		4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerImageDemo.xib; sourceTree = "<group>"; };
 		4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerCustomVibrancyDemo.xib; sourceTree = "<group>"; };
 		4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerCustomVibrancyDemo2.xib; sourceTree = "<group>"; };
+		4756B64C1C88CC2D006F9C86 /* BasicVibrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicVibrantView.swift; sourceTree = "<group>"; };
+		4756B64E1C88CCBF006F9C86 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4756B6511C88CEC5006F9C86 /* SystemColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemColorView.swift; sourceTree = "<group>"; };
+		4756B6531C88D1F7006F9C86 /* WindowMovableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowMovableImageView.swift; sourceTree = "<group>"; };
+		4756B6551C88D2A5006F9C86 /* VibrantControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrantControlsViewController.swift; sourceTree = "<group>"; };
+		4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantColorsViewController.xib; sourceTree = "<group>"; };
+		4756B6591C88D43C006F9C86 /* VibrantControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsViewController.xib; sourceTree = "<group>"; };
+		4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsCaveatsInWindow.xib; sourceTree = "<group>"; };
+		4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VibrantControlsCaveatsBehindWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +85,12 @@
 			isa = PBXGroup;
 			children = (
 				4756B62C1C88BE6E006F9C86 /* AppDelegate.swift */,
+				4756B6501C88CE90006F9C86 /* CustomViews */,
 				4756B6391C88BEA9006F9C86 /* MyKeyWindow.swift */,
 				4756B64B1C88C976006F9C86 /* BasicSideViewController */,
 				4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */,
 				4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */,
+				4756B65B1C88D445006F9C86 /* VibrantControlsViewController */,
 				4756B62E1C88BE6E006F9C86 /* Assets.xcassets */,
 				4756B63F1C88C344006F9C86 /* MainMenu.xib */,
 				4756B6331C88BE6E006F9C86 /* Info.plist */,
@@ -88,6 +108,29 @@
 				4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */,
 			);
 			name = BasicSideViewController;
+			sourceTree = "<group>";
+		};
+		4756B6501C88CE90006F9C86 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				4756B64C1C88CC2D006F9C86 /* BasicVibrantView.swift */,
+				4756B64E1C88CCBF006F9C86 /* CustomView.swift */,
+				4756B6511C88CEC5006F9C86 /* SystemColorView.swift */,
+				4756B6531C88D1F7006F9C86 /* WindowMovableImageView.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		4756B65B1C88D445006F9C86 /* VibrantControlsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4756B6551C88D2A5006F9C86 /* VibrantControlsViewController.swift */,
+				4756B6591C88D43C006F9C86 /* VibrantControlsViewController.xib */,
+				4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */,
+				4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */,
+				4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */,
+			);
+			name = VibrantControlsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,11 +193,15 @@
 			files = (
 				4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */,
 				4756B62F1C88BE6E006F9C86 /* Assets.xcassets in Resources */,
+				4756B65F1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib in Resources */,
 				4756B63E1C88C18C006F9C86 /* TestLauncherViewController.xib in Resources */,
 				4756B6441C88C3D1006F9C86 /* BasicSidebarViewController.xib in Resources */,
+				4756B65A1C88D43C006F9C86 /* VibrantControlsViewController.xib in Resources */,
+				4756B65D1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib in Resources */,
 				4756B64A1C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib in Resources */,
 				4756B6481C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib in Resources */,
 				4756B6401C88C344006F9C86 /* MainMenu.xib in Resources */,
+				4756B6581C88D2AE006F9C86 /* VibrantColorsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4756B64D1C88CC2D006F9C86 /* BasicVibrantView.swift in Sources */,
+				4756B6561C88D2A5006F9C86 /* VibrantControlsViewController.swift in Sources */,
 				4756B6421C88C379006F9C86 /* BasicSidebarViewController.swift in Sources */,
 				4756B62D1C88BE6E006F9C86 /* AppDelegate.swift in Sources */,
+				4756B6541C88D1F7006F9C86 /* WindowMovableImageView.swift in Sources */,
+				4756B64F1C88CCBF006F9C86 /* CustomView.swift in Sources */,
 				4756B63C1C88C181006F9C86 /* TestLauncherViewController.swift in Sources */,
+				4756B6521C88CEC5006F9C86 /* SystemColorView.swift in Sources */,
 				4756B63A1C88BEA9006F9C86 /* MyKeyWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
