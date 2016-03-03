@@ -16,78 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="366"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBi-um-9ZD">
-                    <rect key="frame" x="147" y="291" width="187" height="32"/>
-                    <buttonCell key="cell" type="push" title="Basic Sidebar + Images" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SPX-yn-d5o">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnClickBasicSidebarPlusImages:" target="-2" id="TSw-em-36J"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-db-2EK">
-                    <rect key="frame" x="125" y="265" width="230" height="32"/>
-                    <buttonCell key="cell" type="push" title="Basic Sidebar + Custom Views" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hVL-kr-0YO">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnClickBasicSidebarPlusCustomViews:" target="-2" id="wNZ-Ri-3Fs"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ey-Sd-732">
-                    <rect key="frame" x="119" y="238" width="242" height="32"/>
-                    <buttonCell key="cell" type="push" title="Basic Sidebar + Custom Views 2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="97U-X0-g5Q">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnClickBasicSidebarPlusCustomViews2:" target="-2" id="EuB-0w-4Xe"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVo-uR-8HU">
-                    <rect key="frame" x="176" y="170" width="128" height="32"/>
-                    <buttonCell key="cell" type="push" title="Vibrant Colors" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OM4-Da-KIM">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnVibrantColorsClicked:" target="-2" id="Lre-XQ-xrK"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XgQ-pM-CS6">
-                    <rect key="frame" x="102" y="144" width="277" height="32"/>
-                    <buttonCell key="cell" type="push" title="Vibrant Caveats + In Window Blending" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wTM-ZQ-3YN">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnVibrantControlsCaveatsClicked:" target="-2" id="dQi-34-yaK"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R3h-To-Vy1">
-                    <rect key="frame" x="86" y="119" width="309" height="32"/>
-                    <buttonCell key="cell" type="push" title="Vibrant Caveats + Behind Window Blending" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dBq-ac-NN2">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnVibrantControlsCaveatsBehindWindowClicked:" target="-2" id="gSP-Jv-dQU"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uUx-jf-fUM">
-                    <rect key="frame" x="170" y="195" width="140" height="32"/>
-                    <buttonCell key="cell" type="push" title="Vibrant Controls" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pZC-34-OYK">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="btnVibrantControlsClicked:" target="-2" id="cq3-Lw-2a3"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XpB-7c-VJv">
-                    <rect key="frame" x="157" y="318" width="167" height="32"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XpB-7c-VJv">
+                    <rect key="frame" x="159" y="318" width="164" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="152" id="3Lh-P7-wnJ"/>
+                    </constraints>
                     <buttonCell key="cell" type="push" title="Basic Sidebar + Text" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xo4-nu-jI9">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -96,8 +29,93 @@
                         <action selector="btnClickBasicSidebarPlusText:" target="-2" id="52s-H4-JYu"/>
                     </connections>
                 </button>
-                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-Hj-Ck8">
-                    <rect key="frame" x="183" y="91" width="114" height="32"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YBi-um-9ZD">
+                    <rect key="frame" x="150" y="291" width="182" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="170" id="Iw3-fj-eRU"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Basic Sidebar + Images" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SPX-yn-d5o">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnClickBasicSidebarPlusImages:" target="-2" id="TSw-em-36J"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-db-2EK">
+                    <rect key="frame" x="128" y="264" width="225" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="213" id="0TK-hv-4iQ"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Basic Sidebar + Custom Views" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hVL-kr-0YO">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnClickBasicSidebarPlusCustomViews:" target="-2" id="wNZ-Ri-3Fs"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0ey-Sd-732">
+                    <rect key="frame" x="122" y="237" width="236" height="32"/>
+                    <buttonCell key="cell" type="push" title="Basic Sidebar + Custom Views 2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="97U-X0-g5Q">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnClickBasicSidebarPlusCustomViews2:" target="-2" id="EuB-0w-4Xe"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IVo-uR-8HU">
+                    <rect key="frame" x="177" y="177" width="127" height="32"/>
+                    <buttonCell key="cell" type="push" title="Vibrant Colors" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OM4-Da-KIM">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnVibrantColorsClicked:" target="-2" id="Lre-XQ-xrK"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XgQ-pM-CS6">
+                    <rect key="frame" x="105" y="150" width="271" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="259" id="iPu-Mx-pH1"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Vibrant Caveats + In Window Blending" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wTM-ZQ-3YN">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnVibrantControlsCaveatsClicked:" target="-2" id="dQi-34-yaK"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R3h-To-Vy1">
+                    <rect key="frame" x="90" y="123" width="302" height="32"/>
+                    <buttonCell key="cell" type="push" title="Vibrant Caveats + Behind Window Blending" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dBq-ac-NN2">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnVibrantControlsCaveatsBehindWindowClicked:" target="-2" id="gSP-Jv-dQU"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uUx-jf-fUM">
+                    <rect key="frame" x="171" y="204" width="139" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="127" id="1L5-ao-iEr"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Vibrant Controls" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pZC-34-OYK">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnVibrantControlsClicked:" target="-2" id="cq3-Lw-2a3"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-Hj-Ck8">
+                    <rect key="frame" x="184" y="96" width="112" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="OYW-7e-gLy"/>
+                    </constraints>
                     <buttonCell key="cell" type="push" title="Mask Demo" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TxZ-Mb-irU">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -106,8 +124,11 @@
                         <action selector="btnMaskImageWindowClicked:" target="-2" id="BoY-9c-PcF"/>
                     </connections>
                 </button>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pKj-t0-a8c">
-                    <rect key="frame" x="152" y="58" width="176" height="32"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pKj-t0-a8c">
+                    <rect key="frame" x="152" y="69" width="176" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="164" id="ASI-Ow-Tq6"/>
+                    </constraints>
                     <buttonCell key="cell" type="push" title="Performance Example" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1IZ-Zy-hc6">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -116,8 +137,11 @@
                         <action selector="btnPerformanceExampleClicked:" target="-2" id="sUQ-pT-soc"/>
                     </connections>
                 </button>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6av-rj-f1b">
-                    <rect key="frame" x="178" y="31" width="125" height="32"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6av-rj-f1b">
+                    <rect key="frame" x="178" y="36" width="125" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="113" id="m52-79-1FX"/>
+                    </constraints>
                     <buttonCell key="cell" type="push" title="Sample Maps" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="huk-lr-mrg">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -126,8 +150,8 @@
                         <action selector="btnSampleMapsClicked:" target="-2" id="ZRn-Bf-Jaw"/>
                     </connections>
                 </button>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rl0-WV-IKv">
-                    <rect key="frame" x="170" y="3" width="141" height="32"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Rl0-WV-IKv">
+                    <rect key="frame" x="170" y="9" width="141" height="32"/>
                     <buttonCell key="cell" type="push" title="Demo FaceTime" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="M5P-mA-9KX">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -138,24 +162,31 @@
                 </button>
             </subviews>
             <constraints>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="0ey-Sd-732" secondAttribute="centerX" id="0QF-W9-hTx"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="IVo-uR-8HU" secondAttribute="centerX" id="0sb-2l-EBK"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="top" secondItem="IVo-uR-8HU" secondAttribute="bottom" constant="5" id="4gC-A0-3yb"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="R3h-To-Vy1" secondAttribute="centerX" id="7Cw-qB-7vt"/>
-                <constraint firstItem="uUx-jf-fUM" firstAttribute="top" secondItem="0ey-Sd-732" secondAttribute="bottom" constant="22" id="AfB-K6-X53"/>
-                <constraint firstItem="fRE-db-2EK" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="DOY-YO-bfn"/>
-                <constraint firstItem="rcf-Hj-Ck8" firstAttribute="top" secondItem="R3h-To-Vy1" secondAttribute="bottom" constant="7" id="Fem-Y6-wmB"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="uUx-jf-fUM" secondAttribute="centerX" id="KRn-xD-fVW"/>
-                <constraint firstItem="0ey-Sd-732" firstAttribute="top" secondItem="fRE-db-2EK" secondAttribute="bottom" constant="6" id="XcD-W4-QL8"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="XpB-7c-VJv" secondAttribute="centerX" id="XtQ-yN-l8g"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="rcf-Hj-Ck8" secondAttribute="centerX" id="Yke-0y-Hxr"/>
-                <constraint firstItem="IVo-uR-8HU" firstAttribute="top" secondItem="uUx-jf-fUM" secondAttribute="bottom" constant="4" id="nDc-ra-ugL"/>
-                <constraint firstItem="fRE-db-2EK" firstAttribute="top" secondItem="YBi-um-9ZD" secondAttribute="bottom" constant="5" id="nFe-ar-NZ6"/>
-                <constraint firstItem="YBi-um-9ZD" firstAttribute="top" secondItem="XpB-7c-VJv" secondAttribute="bottom" constant="6" id="nYb-cV-Lrf"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="fRE-db-2EK" secondAttribute="centerX" id="sdQ-oz-AsY"/>
-                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="YBi-um-9ZD" secondAttribute="centerX" id="ykr-bo-79h"/>
-                <constraint firstItem="R3h-To-Vy1" firstAttribute="top" secondItem="XgQ-pM-CS6" secondAttribute="bottom" constant="4" id="ywP-sA-bYw"/>
-                <constraint firstItem="XpB-7c-VJv" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="zsY-FD-Rdt"/>
+                <constraint firstItem="XpB-7c-VJv" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="2dd-Nx-E65"/>
+                <constraint firstItem="pKj-t0-a8c" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="2uo-TG-cTS"/>
+                <constraint firstItem="fRE-db-2EK" firstAttribute="centerX" secondItem="YBi-um-9ZD" secondAttribute="centerX" id="3hQ-H7-N3D"/>
+                <constraint firstItem="YBi-um-9ZD" firstAttribute="top" secondItem="XpB-7c-VJv" secondAttribute="bottom" constant="6" id="45M-dy-aym"/>
+                <constraint firstItem="IVo-uR-8HU" firstAttribute="centerX" secondItem="XgQ-pM-CS6" secondAttribute="centerX" id="6q6-bq-0xr"/>
+                <constraint firstItem="YBi-um-9ZD" firstAttribute="centerX" secondItem="XpB-7c-VJv" secondAttribute="centerX" id="BGn-JG-PZK"/>
+                <constraint firstItem="6av-rj-f1b" firstAttribute="centerX" secondItem="Rl0-WV-IKv" secondAttribute="centerX" id="J8k-gt-GqE"/>
+                <constraint firstItem="uUx-jf-fUM" firstAttribute="centerX" secondItem="0ey-Sd-732" secondAttribute="centerX" id="OjO-6J-EWE"/>
+                <constraint firstItem="pKj-t0-a8c" firstAttribute="centerX" secondItem="6av-rj-f1b" secondAttribute="centerX" id="VyA-x0-Cx5"/>
+                <constraint firstItem="Rl0-WV-IKv" firstAttribute="leading" secondItem="uUx-jf-fUM" secondAttribute="leading" constant="-1" id="Yjl-SZ-WkM"/>
+                <constraint firstItem="R3h-To-Vy1" firstAttribute="top" secondItem="XgQ-pM-CS6" secondAttribute="bottom" constant="6" id="Z7f-lj-2Rf"/>
+                <constraint firstItem="R3h-To-Vy1" firstAttribute="centerX" secondItem="XgQ-pM-CS6" secondAttribute="centerX" id="dtm-QU-Kkb"/>
+                <constraint firstItem="pKj-t0-a8c" firstAttribute="centerX" secondItem="rcf-Hj-Ck8" secondAttribute="centerX" id="guv-CP-2dJ"/>
+                <constraint firstItem="fRE-db-2EK" firstAttribute="top" secondItem="YBi-um-9ZD" secondAttribute="bottom" constant="6" id="hCW-Ir-XFA"/>
+                <constraint firstItem="fRE-db-2EK" firstAttribute="centerX" secondItem="0ey-Sd-732" secondAttribute="centerX" id="iu1-cc-737"/>
+                <constraint firstItem="0ey-Sd-732" firstAttribute="top" secondItem="fRE-db-2EK" secondAttribute="bottom" constant="6" id="jsw-vo-rMh"/>
+                <constraint firstItem="IVo-uR-8HU" firstAttribute="top" secondItem="uUx-jf-fUM" secondAttribute="bottom" constant="6" id="kLD-7M-i2J"/>
+                <constraint firstItem="6av-rj-f1b" firstAttribute="top" secondItem="pKj-t0-a8c" secondAttribute="bottom" constant="12" id="lWX-WK-j1X"/>
+                <constraint firstItem="Rl0-WV-IKv" firstAttribute="top" secondItem="6av-rj-f1b" secondAttribute="bottom" constant="6" id="luL-av-3Zt"/>
+                <constraint firstItem="XgQ-pM-CS6" firstAttribute="centerX" secondItem="rcf-Hj-Ck8" secondAttribute="centerX" id="mHq-kJ-2lp"/>
+                <constraint firstItem="rcf-Hj-Ck8" firstAttribute="top" secondItem="R3h-To-Vy1" secondAttribute="bottom" constant="6" id="t5s-kw-4Vg"/>
+                <constraint firstItem="IVo-uR-8HU" firstAttribute="centerX" secondItem="uUx-jf-fUM" secondAttribute="centerX" id="vp7-zb-S78"/>
+                <constraint firstItem="XgQ-pM-CS6" firstAttribute="top" secondItem="IVo-uR-8HU" secondAttribute="bottom" constant="6" id="weE-51-jb4"/>
+                <constraint firstItem="uUx-jf-fUM" firstAttribute="top" secondItem="0ey-Sd-732" secondAttribute="bottom" constant="12" id="yBb-5X-5CU"/>
+                <constraint firstItem="pKj-t0-a8c" firstAttribute="top" secondItem="rcf-Hj-Ck8" secondAttribute="bottom" constant="6" id="zht-3r-XfJ"/>
             </constraints>
             <point key="canvasLocation" x="261" y="409"/>
         </visualEffectView>

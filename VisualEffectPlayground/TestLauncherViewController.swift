@@ -67,16 +67,16 @@ class TestLauncherViewController: NSViewController {
     }
     
     @IBAction
-    func btnPerformanceExampleClicked (sender: NSButton) {
-        let viewController = VibrantControlsViewController(nibName: "PerformanceExampleViewController")
-        viewController.title = "Performance Example"
+    func btnMaskImageWindowClicked (sender: NSButton) {
+        let viewController = VibrantControlsViewController(nibName: "MaskExampleViewController")
+        viewController.title = "Masks"
         presentViewControllerAsModalWindow(viewController)
     }
     
     @IBAction
-    func btnMaskImageWindowClicked (sender: NSButton) {
-        let viewController = VibrantControlsViewController(nibName: "MaskExampleViewController")
-        viewController.title = "Masks"
+    func btnPerformanceExampleClicked (sender: NSButton) {
+        let viewController = VibrantControlsViewController(nibName: "PerformanceExampleViewController")
+        viewController.title = "Performance Example"
         presentViewControllerAsModalWindow(viewController)
     }
     

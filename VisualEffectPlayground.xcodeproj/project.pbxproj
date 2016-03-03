@@ -104,8 +104,8 @@
 				4756B64B1C88C976006F9C86 /* BasicSideViewController */,
 				4756B6501C88CE90006F9C86 /* CustomViews */,
 				4756B65B1C88D445006F9C86 /* VibrantControlsViewController */,
-				4756B6751C88E157006F9C86 /* DemoFaceTimeWindowController */,
 				4756B66C1C88DADF006F9C86 /* SampleMapsWindowController */,
+				4756B6751C88E157006F9C86 /* DemoFaceTimeWindowController */,
 				4756B6631C88D62A006F9C86 /* Resources */,
 				4756B62E1C88BE6E006F9C86 /* Assets.xcassets */,
 				4756B63F1C88C344006F9C86 /* MainMenu.xib */,
@@ -145,8 +145,8 @@
 				4756B6571C88D2AE006F9C86 /* VibrantColorsViewController.xib */,
 				4756B65C1C88D451006F9C86 /* VibrantControlsCaveatsInWindow.xib */,
 				4756B65E1C88D455006F9C86 /* VibrantControlsCaveatsBehindWindow.xib */,
-				4756B6731C88DF82006F9C86 /* PerformanceExampleViewController.xib */,
 				4756B66A1C88D996006F9C86 /* MaskExampleViewController.xib */,
+				4756B6731C88DF82006F9C86 /* PerformanceExampleViewController.xib */,
 			);
 			name = VibrantControlsViewController;
 			sourceTree = "<group>";
