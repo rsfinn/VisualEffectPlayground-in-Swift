@@ -198,7 +198,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "The Spruce Hill Group";
+				ORGANIZATIONNAME = "Russell Finn";
 				TargetAttributes = {
 					4756B6281C88BE6E006F9C86 = {
 						CreatedOnToolsVersion = 7.2.1;
