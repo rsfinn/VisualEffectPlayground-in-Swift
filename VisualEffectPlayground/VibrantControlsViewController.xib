@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6246"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VibrantControlsViewController">
@@ -20,7 +21,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="379"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="NSStatusAvailable" id="BIS-A0-vTf"/>
                 </imageView>
-                <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="withinWindow" material="appearanceBased" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="36k-hp-7PA">
+                <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="36k-hp-7PA">
                     <rect key="frame" x="29" y="85" width="261" height="250"/>
                     <subviews>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFZ-0E-9KT">
@@ -47,7 +48,7 @@
                             </buttonCell>
                         </button>
                         <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMh-kN-spP">
-                            <rect key="frame" x="87" y="116" width="96" height="21"/>
+                            <rect key="frame" x="87" y="116" width="96" height="20"/>
                             <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="Tc6-nX-mOh"/>
                         </slider>
                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2BB-jo-h9b">
@@ -63,7 +64,7 @@
                         </button>
                     </subviews>
                 </visualEffectView>
-                <visualEffectView appearanceType="vibrantDark" fixedFrame="YES" blendingMode="withinWindow" material="appearanceBased" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="HuN-FE-tMK">
+                <visualEffectView appearanceType="vibrantDark" fixedFrame="YES" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="HuN-FE-tMK">
                     <rect key="frame" x="330" y="85" width="261" height="250"/>
                     <subviews>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Wo-SJ-DRC">
@@ -90,7 +91,7 @@
                             </buttonCell>
                         </button>
                         <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-u1-vgu">
-                            <rect key="frame" x="87" y="116" width="96" height="21"/>
+                            <rect key="frame" x="87" y="116" width="96" height="20"/>
                             <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="vrI-rf-9Cj"/>
                         </slider>
                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMk-gP-n1A">

@@ -44,10 +44,10 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-mw-NrW" customClass="CustomView2">
+                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-mw-NrW" customClass="CustomView2" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="60" y="323" width="162" height="111"/>
                         </customView>
-                        <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sdq-mW-2Bl" customClass="CustomView2">
+                        <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sdq-mW-2Bl" customClass="CustomView2" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="61" y="153" width="162" height="111"/>
                         </customView>
                     </subviews>
@@ -64,7 +64,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it3-H1-hRv" customClass="CustomView2">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it3-H1-hRv" customClass="CustomView2" customModule="VisualEffectPlayground" customModuleProvider="target">
                     <rect key="frame" x="313" y="320" width="162" height="111"/>
                 </customView>
             </subviews>

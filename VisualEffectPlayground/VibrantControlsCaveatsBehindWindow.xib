@@ -20,7 +20,7 @@
                 <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="behindWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="XZO-in-EZp">
                     <rect key="frame" x="0.0" y="-128" width="367" height="491"/>
                     <subviews>
-                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AnF-B7-hDq" customClass="BasicVibrantView">
+                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AnF-B7-hDq" customClass="BasicVibrantView" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="15" y="286" width="332" height="160"/>
                             <subviews>
                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VW4-xq-ZV4">

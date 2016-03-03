@@ -10,9 +10,9 @@ import Cocoa
 
 class SystemColorView: NSView {
     
-    // You can easily tweak this option to always show titles
-    var drawTitles: Bool = false
-    var drawColors: Bool = true
+    // Mark these properties "dynamic" to make them KVC-compliant
+    dynamic var drawTitles: Bool = false    // You can easily tweak this option to always show titles
+    dynamic var drawColors: Bool = true
 
     override func drawRect(dirtyRect: NSRect) {
         guard let colors = NSColorList(named: "System") else { return }

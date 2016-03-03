@@ -34,7 +34,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6EA-Z1-EQ0" customClass="BasicVibrantView">
+                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6EA-Z1-EQ0" customClass="BasicVibrantView" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="20" y="286" width="332" height="160"/>
                             <subviews>
                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojx-XO-h9l">

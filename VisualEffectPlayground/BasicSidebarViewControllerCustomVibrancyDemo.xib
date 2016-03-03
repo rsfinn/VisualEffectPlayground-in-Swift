@@ -36,7 +36,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sdq-mW-2Bl" customClass="CustomView">
+                        <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sdq-mW-2Bl" customClass="CustomView" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="61" y="148" width="162" height="111"/>
                         </customView>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6kh-Q5-Tr4">
@@ -47,7 +47,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-mw-NrW" customClass="CustomView">
+                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-mw-NrW" customClass="CustomView" customModule="VisualEffectPlayground" customModuleProvider="target">
                             <rect key="frame" x="60" y="323" width="162" height="111"/>
                         </customView>
                     </subviews>
@@ -64,7 +64,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-fM-8Ke" customClass="CustomView">
+                <customView appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-fM-8Ke" customClass="CustomView" customModule="VisualEffectPlayground" customModuleProvider="target">
                     <rect key="frame" x="330" y="322" width="162" height="111"/>
                 </customView>
             </subviews>

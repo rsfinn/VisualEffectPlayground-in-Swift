@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class WindowMovableImageView: NSView {
+class WindowMovableImageView: NSImageView {
     
     override var mouseDownCanMoveWindow : Bool {
         get {
