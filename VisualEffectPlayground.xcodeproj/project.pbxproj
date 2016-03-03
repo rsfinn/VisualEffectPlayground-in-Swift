@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4756B62D1C88BE6E006F9C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B62C1C88BE6E006F9C86 /* AppDelegate.swift */; };
+		4756B62F1C88BE6E006F9C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4756B62E1C88BE6E006F9C86 /* Assets.xcassets */; };
+		4756B63A1C88BEA9006F9C86 /* MyKeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6391C88BEA9006F9C86 /* MyKeyWindow.swift */; };
+		4756B63C1C88C181006F9C86 /* TestLauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */; };
+		4756B63E1C88C18C006F9C86 /* TestLauncherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */; };
+		4756B6401C88C344006F9C86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B63F1C88C344006F9C86 /* MainMenu.xib */; };
+		4756B6421C88C379006F9C86 /* BasicSidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756B6411C88C379006F9C86 /* BasicSidebarViewController.swift */; };
+		4756B6441C88C3D1006F9C86 /* BasicSidebarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6431C88C3D1006F9C86 /* BasicSidebarViewController.xib */; };
+		4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */; };
+		4756B6481C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */; };
+		4756B64A1C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4756B6291C88BE6E006F9C86 /* VisualEffectPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualEffectPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4756B62C1C88BE6E006F9C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4756B62E1C88BE6E006F9C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4756B6331C88BE6E006F9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4756B6391C88BEA9006F9C86 /* MyKeyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKeyWindow.swift; sourceTree = "<group>"; };
+		4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLauncherViewController.swift; sourceTree = "<group>"; };
+		4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestLauncherViewController.xib; sourceTree = "<group>"; };
+		4756B63F1C88C344006F9C86 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		4756B6411C88C379006F9C86 /* BasicSidebarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicSidebarViewController.swift; sourceTree = "<group>"; };
+		4756B6431C88C3D1006F9C86 /* BasicSidebarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewController.xib; sourceTree = "<group>"; };
+		4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerImageDemo.xib; sourceTree = "<group>"; };
+		4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerCustomVibrancyDemo.xib; sourceTree = "<group>"; };
+		4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicSidebarViewControllerCustomVibrancyDemo2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4756B6261C88BE6E006F9C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4756B6201C88BE6E006F9C86 = {
+			isa = PBXGroup;
+			children = (
+				4756B62B1C88BE6E006F9C86 /* VisualEffectPlayground */,
+				4756B62A1C88BE6E006F9C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4756B62A1C88BE6E006F9C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4756B6291C88BE6E006F9C86 /* VisualEffectPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4756B62B1C88BE6E006F9C86 /* VisualEffectPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				4756B62C1C88BE6E006F9C86 /* AppDelegate.swift */,
+				4756B6391C88BEA9006F9C86 /* MyKeyWindow.swift */,
+				4756B64B1C88C976006F9C86 /* BasicSideViewController */,
+				4756B63B1C88C181006F9C86 /* TestLauncherViewController.swift */,
+				4756B63D1C88C18C006F9C86 /* TestLauncherViewController.xib */,
+				4756B62E1C88BE6E006F9C86 /* Assets.xcassets */,
+				4756B63F1C88C344006F9C86 /* MainMenu.xib */,
+				4756B6331C88BE6E006F9C86 /* Info.plist */,
+			);
+			path = VisualEffectPlayground;
+			sourceTree = "<group>";
+		};
+		4756B64B1C88C976006F9C86 /* BasicSideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4756B6411C88C379006F9C86 /* BasicSidebarViewController.swift */,
+				4756B6431C88C3D1006F9C86 /* BasicSidebarViewController.xib */,
+				4756B6471C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib */,
+				4756B6491C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib */,
+				4756B6451C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib */,
+			);
+			name = BasicSideViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4756B6281C88BE6E006F9C86 /* VisualEffectPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4756B6361C88BE6E006F9C86 /* Build configuration list for PBXNativeTarget "VisualEffectPlayground" */;
+			buildPhases = (
+				4756B6251C88BE6E006F9C86 /* Sources */,
+				4756B6261C88BE6E006F9C86 /* Frameworks */,
+				4756B6271C88BE6E006F9C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualEffectPlayground;
+			productName = VisualEffectPlayground;
+			productReference = 4756B6291C88BE6E006F9C86 /* VisualEffectPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4756B6211C88BE6E006F9C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "The Spruce Hill Group";
+				TargetAttributes = {
+					4756B6281C88BE6E006F9C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4756B6241C88BE6E006F9C86 /* Build configuration list for PBXProject "VisualEffectPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4756B6201C88BE6E006F9C86;
+			productRefGroup = 4756B62A1C88BE6E006F9C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4756B6281C88BE6E006F9C86 /* VisualEffectPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4756B6271C88BE6E006F9C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4756B6461C88C755006F9C86 /* BasicSidebarViewControllerImageDemo.xib in Resources */,
+				4756B62F1C88BE6E006F9C86 /* Assets.xcassets in Resources */,
+				4756B63E1C88C18C006F9C86 /* TestLauncherViewController.xib in Resources */,
+				4756B6441C88C3D1006F9C86 /* BasicSidebarViewController.xib in Resources */,
+				4756B64A1C88C95B006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo2.xib in Resources */,
+				4756B6481C88C951006F9C86 /* BasicSidebarViewControllerCustomVibrancyDemo.xib in Resources */,
+				4756B6401C88C344006F9C86 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4756B6251C88BE6E006F9C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4756B6421C88C379006F9C86 /* BasicSidebarViewController.swift in Sources */,
+				4756B62D1C88BE6E006F9C86 /* AppDelegate.swift in Sources */,
+				4756B63C1C88C181006F9C86 /* TestLauncherViewController.swift in Sources */,
+				4756B63A1C88BEA9006F9C86 /* MyKeyWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4756B6341C88BE6E006F9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4756B6351C88BE6E006F9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4756B6371C88BE6E006F9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualEffectPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprucehill.VisualEffectPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4756B6381C88BE6E006F9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualEffectPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprucehill.VisualEffectPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4756B6241C88BE6E006F9C86 /* Build configuration list for PBXProject "VisualEffectPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4756B6341C88BE6E006F9C86 /* Debug */,
+				4756B6351C88BE6E006F9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4756B6361C88BE6E006F9C86 /* Build configuration list for PBXNativeTarget "VisualEffectPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4756B6371C88BE6E006F9C86 /* Debug */,
+				4756B6381C88BE6E006F9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4756B6211C88BE6E006F9C86 /* Project object */;
+}
