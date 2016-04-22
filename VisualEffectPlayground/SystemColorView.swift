@@ -11,6 +11,7 @@ import Cocoa
 class SystemColorView: NSView {
     
     // Mark these properties "dynamic" to make them KVC-compliant
+    // (so they can be set from within Interface Builder).
     dynamic var drawTitles: Bool = false    // You can easily tweak this option to always show titles
     dynamic var drawColors: Bool = true
 

@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        mainWindow = MyKeyWindow(contentRect: NSRect.zero, styleMask: 0, backing: NSBackingStoreType.Buffered, `defer`: false, screen: nil)
+        mainWindow = MyKeyWindow(contentRect: NSRect.zero, styleMask: 0, backing: NSBackingStoreType.Buffered, defer: false, screen: nil)
         mainWindow.opaque = false
         mainWindow.movable = true
         mainWindow.movableByWindowBackground = true
