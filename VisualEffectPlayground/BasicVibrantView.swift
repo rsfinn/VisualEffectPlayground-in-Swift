@@ -18,7 +18,7 @@ class BasicVibrantView: NSView {
 
     override func draw(_ dirtyRect: NSRect) {
         NSColor.secondaryLabelColor.set()
-        NSFrameRectWithWidth(bounds, 10)
+        bounds.frame(withWidth: 10)
     }
     
 }

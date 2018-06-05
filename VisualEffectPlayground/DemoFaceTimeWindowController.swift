@@ -12,14 +12,14 @@ class DemoFaceTimeWindowController: NSWindowController {
     @IBOutlet weak var imageView: WindowMovableImageView?
 
     convenience init() {
-        self.init(windowNibName: "DemoFaceTimeWindowController")
+        self.init(windowNibName: NSNib.Name("DemoFaceTimeWindowController"))
     }
     
     override func windowDidLoad() {
         super.windowDidLoad()
     
         if let window = window {
-            window.appearance = NSAppearance(named: NSAppearanceNameVibrantDark)
+            window.appearance = NSAppearance(named: .vibrantDark)
             window.styleMask.insert(.fullSizeContentView)
             window.titleVisibility = .hidden
             window.isMovableByWindowBackground = true

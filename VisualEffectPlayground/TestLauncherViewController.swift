@@ -11,7 +11,7 @@ import Cocoa
 class TestLauncherViewController: NSViewController {
 
     convenience init() {
-        self.init(nibName: nil, bundle: nil)!
+        self.init(nibName: nil, bundle: nil)
     }
     
     
