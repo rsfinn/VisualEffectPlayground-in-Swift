@@ -3,7 +3,7 @@
 //  VisualEffectPlayground
 //
 //  Created by Russell Finn on 3/3/16.
-//  Copyright © 2016 Russell Finn. All rights reserved.
+//  Copyright © 2016, 2018 Russell Finn. All rights reserved.
 //
 
 import Cocoa
@@ -20,9 +20,9 @@ class DemoFaceTimeWindowController: NSWindowController {
     
         if let window = window {
             window.appearance = NSAppearance(named: NSAppearanceNameVibrantDark)
-            window.styleMask |= NSFullSizeContentViewWindowMask
-            window.titleVisibility = .Hidden
-            window.movableByWindowBackground = true
+            window.styleMask.insert(.fullSizeContentView)
+            window.titleVisibility = .hidden
+            window.isMovableByWindowBackground = true
         }
         
         if let imageView = imageView {

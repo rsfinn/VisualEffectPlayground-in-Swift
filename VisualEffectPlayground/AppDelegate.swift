@@ -3,7 +3,7 @@
 //  VisualEffectPlayground
 //
 //  Created by Russell Finn on 3/3/16.
-//  Copyright © 2016 Russell Finn. All rights reserved.
+//  Copyright © 2016, 2018 Russell Finn. All rights reserved.
 //
 
 import Cocoa
@@ -14,20 +14,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var mainWindow: MyKeyWindow!
 
 
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
-        mainWindow = MyKeyWindow(contentRect: NSRect.zero, styleMask: 0, backing: NSBackingStoreType.Buffered, defer: false, screen: nil)
-        mainWindow.opaque = false
-        mainWindow.movable = true
-        mainWindow.movableByWindowBackground = true
-        mainWindow.releasedWhenClosed = false
-        mainWindow.backgroundColor = NSColor.clearColor()
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        mainWindow = MyKeyWindow(contentRect: NSRect.zero, styleMask: NSWindowStyleMask(rawValue: 0), backing: NSBackingStoreType.buffered, defer: false, screen: nil)
+        mainWindow.isOpaque = false
+        mainWindow.isMovable = true
+        mainWindow.isMovableByWindowBackground = true
+        mainWindow.isReleasedWhenClosed = false
+        mainWindow.backgroundColor = NSColor.clear
         mainWindow.contentViewController = TestLauncherViewController()
         
         mainWindow.center()
         mainWindow.makeKeyAndOrderFront(nil)
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
+    func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
 
