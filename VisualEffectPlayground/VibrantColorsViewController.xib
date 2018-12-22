@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VibrantControlsViewController">
@@ -21,7 +22,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="726" height="373"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="NSStopProgressTemplate" id="2vo-za-zS1"/>
                 </imageView>
-                <visualEffectView appearanceType="vibrantDark" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="LaU-St-2G6">
+                <visualEffectView appearanceType="vibrantDark" blendingMode="withinWindow" material="underWindowBackground" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="LaU-St-2G6">
                     <rect key="frame" x="539" y="0.0" width="187" height="345"/>
                     <subviews>
                         <customView translatesAutoresizingMaskIntoConstraints="NO" id="ux7-EJ-deF" customClass="SystemColorView" customModule="VisualEffectPlayground" customModuleProvider="target">
@@ -38,6 +39,7 @@
                 </visualEffectView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kze-u8-Zhu">
                     <rect key="frame" x="558" y="349" width="159" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Vibrant Dark Appearance" id="VS7-31-ZbK">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -46,6 +48,7 @@
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJo-ke-PHY">
                     <rect key="frame" x="365" y="349" width="161" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Vibrant Light Appearance" id="PPf-PR-Fel">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -53,12 +56,12 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="Bri-rb-pGS" customClass="SystemColorView" customModule="VisualEffectPlayground" customModuleProvider="target">
-                    <rect key="frame" x="192" y="0.0" width="147" height="347"/>
+                    <rect key="frame" x="192" y="0.0" width="147" height="345"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="147" id="WHb-zu-VUf"/>
                     </constraints>
                 </customView>
-                <visualEffectView appearanceType="vibrantLight" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="NcX-mf-3OK">
+                <visualEffectView appearanceType="vibrantLight" blendingMode="withinWindow" material="underWindowBackground" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="NcX-mf-3OK">
                     <rect key="frame" x="352" y="0.0" width="187" height="345"/>
                     <subviews>
                         <customView translatesAutoresizingMaskIntoConstraints="NO" id="YIs-BY-5B6" customClass="SystemColorView" customModule="VisualEffectPlayground" customModuleProvider="target">
@@ -73,7 +76,7 @@
                         <constraint firstItem="YIs-BY-5B6" firstAttribute="top" secondItem="NcX-mf-3OK" secondAttribute="top" id="mFZ-W7-eTC"/>
                     </constraints>
                 </visualEffectView>
-                <visualEffectView appearanceType="vibrantLight" blendingMode="withinWindow" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="TwR-cT-Km2">
+                <visualEffectView blendingMode="withinWindow" material="underWindowBackground" state="active" translatesAutoresizingMaskIntoConstraints="NO" id="TwR-cT-Km2">
                     <rect key="frame" x="0.0" y="0.0" width="178" height="346"/>
                     <subviews>
                         <customView translatesAutoresizingMaskIntoConstraints="NO" id="09K-W8-ymO" customClass="SystemColorView" customModule="VisualEffectPlayground" customModuleProvider="target">
@@ -95,6 +98,7 @@
                 </visualEffectView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F8s-0P-mqK">
                     <rect key="frame" x="190" y="349" width="114" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Aqua Appearance" id="I9k-03-C0e">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -107,7 +111,7 @@
                 <constraint firstAttribute="bottom" secondItem="NcX-mf-3OK" secondAttribute="bottom" id="319-lG-nMf"/>
                 <constraint firstItem="TwR-cT-Km2" firstAttribute="leading" secondItem="Bem-0Z-eHf" secondAttribute="leading" id="5N5-Bb-sJI"/>
                 <constraint firstAttribute="bottom" secondItem="TwR-cT-Km2" secondAttribute="bottom" id="5Oc-4v-vfq"/>
-                <constraint firstItem="Bri-rb-pGS" firstAttribute="top" secondItem="Bem-0Z-eHf" secondAttribute="top" constant="26" id="AsB-MD-ZCW"/>
+                <constraint firstItem="Bri-rb-pGS" firstAttribute="top" secondItem="Bem-0Z-eHf" secondAttribute="top" constant="28" id="AsB-MD-ZCW"/>
                 <constraint firstAttribute="bottom" secondItem="Bri-rb-pGS" secondAttribute="bottom" id="AtO-yM-Dr4"/>
                 <constraint firstItem="LaU-St-2G6" firstAttribute="top" secondItem="Bem-0Z-eHf" secondAttribute="top" constant="28" id="DE6-Gx-Dyg"/>
                 <constraint firstItem="aZc-28-NK2" firstAttribute="leading" secondItem="Bem-0Z-eHf" secondAttribute="leading" id="Ehy-bo-zQ9"/>
